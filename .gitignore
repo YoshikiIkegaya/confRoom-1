@@ -20,3 +20,6 @@
 # Ignore Byebug command history file.
 .byebug_history
 bower_components
+
+# Ignore 環境変数
+.env

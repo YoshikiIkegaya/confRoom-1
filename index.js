@@ -1,24 +1,9 @@
-$(function () {
-
-    console.log(gapi);
-
-    $('#datetimepicker1').datetimepicker();
-
-    $('.search').on('click', function(e) {
-        e.preventDefault;
-        listUpcomingEvents();
-    });
-});
-
-
-
   // Your Client ID can be retrieved from your project in the Google
   // Developer Console, https://console.developers.google.com
-  var CLIENT_ID = '';
-  var CALENDER_ID = '';
+  var CLIENT_ID = "";
+  var CALENDER_ID = "";
   var SCOPES = ["https://www.googleapis.com/auth/calendar"];
-
-
+  console.log('環境変数が設定できているかのテストです。');
 
   /**
    * Check if current user has authorized this application.
