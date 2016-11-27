@@ -24,3 +24,16 @@ Things you may want to cover:
 * ...
 # これ
 bower install
+
+
+
+# 環境変数の設定
+
+* cd ~/confRoom
+
+* source .env.sh
+
+* env
+
+で設定できているかどうか確認できます。
+（カリ）
